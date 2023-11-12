@@ -45,7 +45,7 @@ ProblemDetail 을 사용한 예제 입니다.
 * 8082 포트를 사용합니다
 ```
 {
-  "type": "about:blank",
+  "type": "https://github.com/gwagdalf/problemdetaildemo/blob/main/iiiproblemdetail/README.md",
   "title": "Bad Request",
   "status": 400,
   "detail": "user 명은 알파벳 대소문자만 허용됩니다",
