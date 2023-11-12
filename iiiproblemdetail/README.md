@@ -1,14 +1,14 @@
 # type uri example
 
-### /hi/{uers}
+### /users/{user}
 
-uers 는 알파벳 대소문자만 입력 가능합니다
+user 는 알파벳 대소문자만 입력 가능합니다
 
 ```
 Pattern.matches("[a-zA-Z]+",user);
 ```
 
-숫자와 특수문자가 입력되면, BAD REQEST Error 가 발생됩니다
+알파벳을 제외한, 숫자나 특수문자등이 입력되면, BAD REQEST 에러가 발생합니다.
 
 
 
