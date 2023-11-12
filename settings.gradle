@@ -1,0 +1,6 @@
+rootProject.name = 'problemdetaildemo'
+
+include "common"
+include "idefault"
+include "iiold"
+include "iiiproblemdetail"
