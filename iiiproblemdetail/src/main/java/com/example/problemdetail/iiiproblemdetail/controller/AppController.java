@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class AppController {
 
-	@GetMapping("/hi/{user}")
+	@GetMapping("/users/{user}")
 	public Message sayHi(@PathVariable String user){
 		boolean isUserValidate = Pattern.matches("[a-zA-Z]+",user);
 		if(!isUserValidate){
